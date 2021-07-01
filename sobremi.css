@@ -1,0 +1,22 @@
+
+#sobremi{
+    margin-left: 40px;
+    margin-top: 95px;
+}
+.biografiaimagen{
+    display: flex;
+    margin: 2%;
+}
+.biografia{
+    padding: 5px;
+    float: left;
+    margin: 0% 5% 0% 0%;
+}
+.imagen{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0% 3%;
+    padding: 20px 0%;
+    background-color: black;
+}

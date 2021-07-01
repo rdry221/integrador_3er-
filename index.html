@@ -1,0 +1,86 @@
+ <!DOCTYPE html>
+   <html>
+      <head>
+               <title>Steele davis</title>
+               <meta charset="UTF-8">
+               <link rel="preconnect" href="https://fonts.gstatic.com">
+               <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"> 
+               <link rel="stylesheet" type="Text/css" href="estilos.css">
+               <link rel="stylesheet" type="Text/css" href="responsivo.css">
+               <link rel="stylesheet" type="Text/css" href="galeria.css">
+               <link rel="stylesheet" type="Text/css" href="responsivo2.css">
+               <link rel="stylesheet" type="Text/css" href="sobremi.css">
+               <link rel="stylesheet" type="Text/css" href="responsivo4.css">
+      </head>
+      <body> 
+               <header>
+                   <nav>
+                       <ul>
+                         <li class="inicio"> 
+                           <a href="inicio.html">inicio</a>
+                         </li>
+                       </ul>
+                       <ul>
+                         <li class="sobremi">
+                           <a href="sobremi.html">Sobre mi</a>
+                         </li>
+                      </ul>
+                       <ul>
+                         <li class="galeria">
+                           <a href="galeria.html">Galeria</a>
+                         </li>
+                    </ul>
+                  </nav>
+               </header>
+       <main>
+
+       </main>
+        <footer > 
+          <div>
+            <ul id="footer">
+              <li>
+               <a href="https://www.instagram.com/mrsteelefpv/"><img src="imagenes/instagram.png" width="40" alt=""></a>
+              </li>
+              <li>
+               <a href="https://www.youtube.com/user/MrSteeledavis"><img src="imagenes/youtube.png" width="40" alt=""></a>
+              </li>        
+              <li>
+               <a href="https://www.facebook.com/MrSteeleFPV"><img src="imagenes/facebook.png" width="40" alt=""></a>
+              </li>
+              <li>
+               <a href="https://twitter.com/mrsteelefpv"> <img src="imagenes/twitter.png" width="40" alt=""></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/steele-davis-b176aa100/"> <img src="imagenes/linkedin.png" width="40" alt="linkedin"></a>
+              </li>
+              <li>
+              <a href="https://www.google.com/intl/es/gmail/about/"> <img src="imagenes/gmail.png" width="40" alt=""></a>
+              </li>
+            </ul>
+          </div>
+           <div id="p">
+            <p>visite mis redes sociales y enviame un mail para consultas de trabajo con dron</p>
+            <p>copyright - Rojas Rodrigo - 2021</p>
+           </div>  
+        </footer>
+
+        <script src="jquery.js"></script>
+        <script>
+
+            $('a').on(
+              "click",
+              function(evento) {
+
+                  evento.preventDefault();
+                  
+                  var url_a_buscar = $(evento.target).attr('href');
+                  $('main').load(url_a_buscar)
+                 
+              }
+            )
+                $('main').load("inicio.html")
+
+                
+        </script>
+    </body>
+</html>

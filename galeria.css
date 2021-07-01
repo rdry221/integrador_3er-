@@ -1,0 +1,72 @@
+
+#aventuras{
+    margin: 100px 80px 0px;
+    font-family: 'Courgette', cursive;
+    font-size: 35px;
+}
+.video{
+    margin-left: 50px;
+    margin-bottom: 60px;
+    display: inline-flex;
+    border-color:rgb(78, 41, 41);
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+    background-color: #0005;
+}        
+#video{
+    border-color:rgb(61, 20, 211);
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    top: 160px;
+    padding: 5px 20px;
+    background-color: rgb(11, 61, 212);
+    font-family: 'Courgette', cursive;
+
+
+}
+#imagenes{
+    border-color:rgb(61, 20, 211);
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    top: 420px;
+    padding: 5px 20px;
+    background-color: rgb(11, 61, 212);
+    font-family: 'Courgette', cursive;
+
+
+}
+#otros{
+    border-color:rgb(61, 20, 211);
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    top: 720px;
+    padding: 5px 20px;
+    background-color: rgb(11, 61, 212);
+    font-family: 'Courgette', cursive;
+}
+
+.imagenes{
+    margin-left: 50px;
+    margin-bottom: 60px;
+    display: inline-flex;
+    border-color:rgb(78, 41, 41);
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+    background-color: #0005;
+}        
+.otros{
+    margin-left: 50px;
+    margin-bottom: 60px;
+    display: inline-flex;
+    border-color:rgb(78, 41, 41);
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+    background-color: #0005;
+}        
+

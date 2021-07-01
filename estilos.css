@@ -1,0 +1,170 @@
+
+body{
+    background-color: #014d83;
+    background-image: url(imagenes/dronesfondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0%;
+}
+
+header{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #0005;
+    position:fixed;
+    top: 1%;
+    left: 2%;
+    right: 1%;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+   padding: 1px 80px 1px 0px;
+   list-style: none;
+}
+.inicio{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+}
+.sobremi{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+}
+.galeria{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+}
+
+#blanco{
+    color:white;
+    margin-top: 90px;
+    margin-left: 40px;
+    font-family: 'Courgette',cursive;
+    font-size: 35px;
+}
+#vpp{
+    float: left;
+     border-width: 1px;
+     border-style: solid;
+     margin: 0% 0% 3% 3%;
+     padding: 0px 0px;    
+}
+#MR{
+    float: right;
+    border-color:white;
+     border-width: 1px;
+     border-style: solid;
+     background-color: #0009;
+     margin: 12px 150px 0px 0px;
+     padding: 3px 3px;
+    }
+.mr {
+    padding: 10px 0px 0px 25px;
+   
+}
+p.azul{
+    border-color: blanchedalmond;
+    border-width: 1px;
+    border-style: solid;
+    background-color: dodgerblue;
+    padding: 0px 50px 10px 0px;
+    font-family: 'Courgette',cursive;
+    font-size: 18px;
+}
+#vs{
+      clear: both;
+      display: flex;
+      justify-content: space-around;
+    }
+#a{
+    border-color:white;
+     border-width: 1px;
+     border-style: solid;
+     background-image: url(imagenes/a.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #0009;
+    background-size: 80%;
+     padding: 100px;
+     margin: 20px;
+
+}
+#b{
+    border-color:white;
+     border-width: 1px;
+     border-style: solid;
+     background-image: url(imagenes/b.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #0009;
+    background-size: 80%;
+     padding: 100px;
+    margin: 20px;
+    }
+#c{
+    border-color:white;
+     border-width: 1px;
+     border-style: solid;
+     background-image: url(imagenes/c.png);
+     background-color: #0009;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+     padding: 100px;
+    margin: 20px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+    margin: 0px;
+    padding: 1%;
+
+}
+footer main html{
+    background-color: teal;
+    margin: 0%;
+}
+body{
+    margin: 0%;
+}
+ul{
+    list-style: none;
+    padding: 1%;
+ 
+}
+#p{
+    text-align: center;
+    background-color: teal;
+    margin: 0px;
+    padding: 25px;
+}
+p{ 
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#a a{
+    display: block;
+    height: 100%;
+}
+article p{
+    padding: 100%;
+}
+h2{
+    font-family: 'Courgette', cursive;
+    font-size: 45px;
+    margin: 10px 0px;
+
+}
